@@ -1,0 +1,44 @@
+body{
+    background-color: antiquewhite;
+
+}
+.square:hover{
+    background-color: chocolate;
+    transition: 1s;
+    cursor: pointer;
+}
+.game{
+    width: 400px;
+    margin: auto;
+    color: white;
+    padding: 44px;
+    font-weight: 400px;
+
+}
+.title{
+    text-align: center;
+    background-color:brown ;
+    margin-left: 34%;
+    margin-right: 41%;
+    padding: 15px 0px;
+    color: white;
+    font-size: x-large;
+    margin-top: 43px;
+
+}
+span{
+    color: orange;
+}
+.square{
+    display: flex;
+    background: brown;
+    width: 100PX;
+    height: 100px;
+    float: left;
+    margin: 2px;
+    font-size: 43px;
+    align-items: center ;
+    justify-content: center
+    ;
+
+}
